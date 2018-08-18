@@ -83,13 +83,13 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # }
 
 DATABASES = {
-'default': {
-    'ENGINE': 'django.db.backends.mysql',
-    'NAME': 'Asyafirstblog$BlogDB',
-    'USER': 'Asyafirstblog',
-    'PASSWORD': 'barabolia19',
-    'HOST': 'Asyafirstblog.mysql.pythonanywhere-services.com',
-}
+	'default': {
+    	'ENGINE': 'django.db.backends.mysql',
+    	'NAME': 'Asyafirstblog$BlogDB',
+    	'USER': 'Asyafirstblog',
+    	'PASSWORD': 'barabolia19',
+    	'HOST': 'Asyafirstblog.mysql.pythonanywhere-services.com',
+	}
 }
 
 
